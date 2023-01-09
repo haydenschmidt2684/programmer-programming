@@ -34,6 +34,10 @@ bool isSomething = true;
 char chr_something = 'a';
 std::string str_something = "Hello there";
 
+//array-variables
+int8_t i8_sz_something[];
+int8_t sz_i8_something[];
+
 int main(){
     std::cout << "Int32 = " << i32_example << std::endl;
     return 0;
