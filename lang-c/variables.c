@@ -11,6 +11,13 @@ __int64_t i64_number = 0;
 
 bool isSomething = false;
 
+char chr_something = 'a';
+
+float f_number = 0.01f;
+double d_number = 0.01f;
+long l_number = 0.01f;
+long double ld_number = 0.01f;
+
 int main(){
     printf("");
     return 0;
