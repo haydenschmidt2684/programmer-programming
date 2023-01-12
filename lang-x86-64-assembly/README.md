@@ -3,7 +3,7 @@ Link Source: https://cs.lmu.edu/~ray/notes/x86assembly/
 
 Assemble and build using this line:
 
-nasm -felf64 helloworld.asm && ld helloworld.o && ./helloworld.out
+nasm -f elf64 helloworld.asm && ld helloworld.o && ./helloworld.out
 
 # ASSEMBLY VSCODE FOLDER SETTINGS
 This folder contains settings only for x86 and x86_64 Assembly
@@ -16,3 +16,6 @@ Open the file You want to assemble in Vscode and press CTRL + Shift + B. This wi
 This will install gdb debugger for debugging your assembly Code.
 
 -- ext install DamianKoper.gdb-debug --
+
+# X86 AND X86_64 LINUX TUTORIAL
+Source: https://youtube.com/playlist?list=PLetF-YjXm-sCH6FrTz4AQhfH6INDQvQSn
